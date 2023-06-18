@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { add } from "../store";
+import { add } from "../store/actions/lists";
 import { useDispatch } from "react-redux";
 
 const Form = () => {
